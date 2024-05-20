@@ -1,9 +1,21 @@
+/**
+    * @description      : 
+    * @author           : Christien Moses
+    * @group            : 
+    * @created          : 20/05/2024 - 22:04:59
+    * 
+    * MODIFICATION LOG
+    * - Version         : 1.0.0
+    * - Date            : 20/05/2024
+    * - Author          : Christien Moses
+    * - Modification    : 
+**/
 import React from 'react';
 
 const articles = [
-  { title: 'Article 1', date: '2024-01-01', image: 'path/to/image1.jpg' },
-  { title: 'Article 2', date: '2024-02-01', image: 'path/to/image2.jpg' },
-  { title: 'Article 3', date: '2024-03-01', image: 'path/to/image3.jpg' },
+  { title: 'Guerre en RDC', date: '2024-01-01', image: '/images/img1.jpg' },
+  { title: 'Les FARDC et leur commandemet', date: '2024-02-01', image: '/images/img2.jpg' },
+  { title: 'Les replis Strategiques des FARDC', date: '2024-03-01', image: '/images/img3.jpg' },
 ];
 
 const Articles = () => {
