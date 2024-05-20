@@ -16,13 +16,13 @@ import { FaFacebook, FaTelegram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="flex justify-center space-x-4 p-4 bg-gray-800 text-white">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/christien.moses" target="_blank" rel="noopener noreferrer">
         <FaFacebook className="text-2xl" />
       </a>
-      <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+      <a href="https://telegram.org/christien.Moses" target="_blank" rel="noopener noreferrer">
         <FaTelegram className="text-2xl" />
       </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/mwlite/feed/?trk=p_mwlite_feed_updates-primary_nav" target="_blank" rel="noopener noreferrer">
         <FaLinkedin className="text-2xl" />
       </a>
     </footer>
