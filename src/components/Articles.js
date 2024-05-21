@@ -11,11 +11,14 @@
     * - Modification    : 
 **/
 import React from 'react';
+import un_programmeur_mobile from "../images/mobile.jpg";
+import blockchain from "../images/blockchain.jpg";
+import une_camera from "../images/eo.jpg"
 
 const articles = [
-  { title: 'Guerre en RDC', date: '2024-01-01', image: '/images/img1.jpg' },
-  { title: 'Les FARDC et leur commandemet', date: '2024-02-01', image: '/images/img2.jpg' },
-  { title: 'Les replis Strategiques des FARDC', date: '2024-03-01', image: '/images/img3.jpg' },
+  { title: 'La programmation mobile, un secteur cle pour les programmeurs', date: '2024-01-01', image: un_programmeur_mobile  },
+  { title: 'la blockchain, une revolutiopn technologique', date: '2024-02-01', image: blockchain },
+  { title: 'les cameras programables', date: '2024-03-01', image: une_camera },
 ];
 
 const Articles = () => {
