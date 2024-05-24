@@ -23,7 +23,7 @@ const ArticleForm = () => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/api/articles', { title, date, image, body });
+      await axios.post('http://2c0f:e01:607:5b00:a53c:4129:e321:7ca2:5000/api/articles', { title, date, image, body });
       alert('Article créé avec succès');
       setTitle('');
       setDate('');
@@ -36,7 +36,7 @@ const ArticleForm = () => {
 
   return (
     <section className="p-8">
-      <h3 className="text-2xl font-bold text-center mb-4">Rédiger un Article</h3>
+      <h3 className="text-2xl font-bold text-center mb-4">Publier un Article</h3>
       <form className="max-w-lg mx-auto space-y-4" onSubmit={handleSubmit}>
         <input
           type="text"

@@ -19,7 +19,7 @@ const Articles = () => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const response = await axios.get('http://192.168.1.80:5000/api/articles');
+        const response = await axios.get('http://2c0f:e01:607:5b00:a53c:4129:e321:7ca2:5000/api/articles');
         setArticles(response.data);
       } catch (err) {
         console.error('Error fetching articles:', err);
