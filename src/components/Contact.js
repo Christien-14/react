@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post('http://2c0f:e01:607:5b00:a53c:4129:e321:7ca2:5000/api/contact', { name, email, message });
+      await axios.post('http://localhost:5000/api/contact', { name, email, message });
       alert('Message envoyé avec succès');
       setName('');
       setEmail('');
