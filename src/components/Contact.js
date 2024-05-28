@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/api/contact', { name, email, message });
+      await axios.post('https://back001.onrender.com/api/contact', { name, email, message });
       alert('Message envoyé avec succès');
       setName('');
       setEmail('');
