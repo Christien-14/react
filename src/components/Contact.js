@@ -23,6 +23,7 @@ const Contact = () => {
 
     try {
       await axios.post('https://back001.onrender.com/api/contact', { name, email, message });
+
       alert('Message envoyé avec succès');
       setName('');
       setEmail('');

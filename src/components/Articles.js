@@ -20,6 +20,7 @@ const Articles = () => {
     const fetchArticles = async () => {
       try {
         const response = await axios.get('https://back001.onrender.com/api/articles');
+
         setArticles(response.data);
       } catch (err) {
         console.error('Error fetching articles:', err);
