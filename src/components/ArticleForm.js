@@ -23,7 +23,7 @@ const ArticleForm = () => {
     e.preventDefault();
 
     try {
-      await axios.post('https://back001.onrender.com//api/articles', { title, date, image, body });
+      await axios.post('https://back001.onrender.com/api/articles', { title, date, image, body });
       alert('Article créé avec succès');
       setTitle('');
       setDate('');
