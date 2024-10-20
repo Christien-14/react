@@ -18,6 +18,7 @@ const skills = [
   { name: 'Blockchain', icon: <FaBitcoin /> }, // Remplacer FaBlockchain par FaBitcoin
   { name: 'Linux', icon: <FaLinux /> },
   { name: 'Windows', icon: <FaWindows /> },
+  { name: 'Windows', icon: <FaWindows /> },
 ];
 
 const Skills = () => {
