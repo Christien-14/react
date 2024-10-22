@@ -19,7 +19,7 @@ const Footer = () => {
       <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
         <FaFacebook className="text-2xl" />
       </a>
-      <a href="https://telegram.org/christien.Moses" target="_blank" rel="noopener noreferrer">
+      <a href="https://telegram.org/" target="_blank" rel="noopener noreferrer">
         <FaTelegram className="text-2xl" />
       </a>
       <a href="https://www.linkedin.com/mwlite/feed/?trk=p_mwlite_feed_updates-primary_nav" target="_blank" rel="noopener noreferrer">
