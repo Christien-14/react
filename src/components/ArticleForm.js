@@ -36,7 +36,7 @@ const ArticleForm = () => {
 
   return (
     <section className="p-8">
-      <h3 className="text-2xl font-bold text-center mb-4">Publier votre Article ici</h3>
+      <h3 className="text-2xl font-bold text-center mb-4">Publier un Article</h3>
       <form className="max-w-lg mx-auto space-y-4" onSubmit={handleSubmit}>
         <input
           type="text"
