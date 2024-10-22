@@ -21,7 +21,7 @@ const Header = () => {
           <span>Nous écrire</span>
         </button>
         <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
-          <a href="https://github.com/Christien-14" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
         </button>
       </div>
     </header>
