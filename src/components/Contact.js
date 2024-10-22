@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <section className="p-8">
-      <h3 className="text-2xl font-bold text-center mb-4">nous ecrire</h3>
+      <h3 className="text-2xl font-bold text-center mb-4">Contactez-Nous</h3>
       <form className="max-w-lg mx-auto space-y-4" onSubmit={handleSubmit}>
         <input type="text" placeholder="Nom" className="w-full p-2 border rounded" value={name} onChange={(e) => setName(e.target.value)} />
         <input type="email" placeholder="Email" className="w-full p-2 border rounded" value={email} onChange={(e) => setEmail(e.target.value)} />
