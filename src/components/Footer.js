@@ -16,7 +16,7 @@ import { FaFacebook, FaTelegram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="flex justify-center space-x-4 p-4 bg-gray-800 text-white">
-      <a href="https://www.facebook.com/christien.moses" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
         <FaFacebook className="text-2xl" />
       </a>
       <a href="https://telegram.org/christien.Moses" target="_blank" rel="noopener noreferrer">
